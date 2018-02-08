@@ -1,8 +1,9 @@
 {
   "name": "srpl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy replace with regexp in massive files without freeze using node",
   "main": "index.js",
+  "repository": "github:steffanhalv/srpl",
   "bin": {
     "srpl": "index.js"
   },
