@@ -1,0 +1,13 @@
+{
+  "name": "srpl",
+  "version": "1.0.0",
+  "description": "Easy replace with regexp in massive files without freeze using node",
+  "main": "index.js",
+  "scripts": {
+    "repl": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
