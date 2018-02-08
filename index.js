@@ -1,4 +1,4 @@
-// Ex. npm run repl haagen_no.sql '2017/12/(.*?).png' '2017/12/png/\$1.png'
+// Ex. npm run repl db.sql '2017/12/(.*?).png' '2017/12/png/\$1.png'
 var path = require('path')
 var fs = require('fs')
 var readline = require('readline')
