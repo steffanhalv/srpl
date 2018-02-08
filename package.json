@@ -1,6 +1,6 @@
 {
   "name": "srpl",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Easy replace with regexp in massive files without freeze using node",
   "main": "index.js",
   "repository": "github:steffanhalv/srpl",
@@ -11,7 +11,7 @@
     "srpl": "node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
   }
 }

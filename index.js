@@ -14,8 +14,10 @@ if (args.length < 3) {
 var src = args[0]
 var search = args[1]
 var replace = args[2]
-var read = path.join(__dirname, src)
-var write = path.join(__dirname, 'repl_' + src)
+var read = process.cwd() + '/' + src
+console.log(read)
+return
+var write = process.cwd() + '/' + 'repl_' + src
 fs.unlink(write, e => {
     /*if (e) {
         console.error(e)
