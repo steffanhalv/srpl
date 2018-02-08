@@ -1,7 +1,7 @@
 {
   "name": "srpl",
-  "version": "1.0.1",
-  "description": "Easgit add README.mdy replace with regexp in massive files without freeze using node",
+  "version": "1.0.2",
+  "description": "Easy replace with regexp in massive files without freeze using node",
   "main": "index.js",
   "scripts": {
     "srpl": "node index.js"
