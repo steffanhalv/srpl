@@ -6,7 +6,12 @@ var stream = require('stream')
 var args = process.argv.slice(2)
 
 if (args.length < 3) {
-    console.error('srpl require 3 arguments: [ src search replace ] from current path. Supports regexp and flag')
+    console.error('srpl supports 4 arguments: [ src search replace flag ]\r\n')
+    console.error('[ src ]                "path_to_file.sql"')
+    console.error('[ search ]             "replace_from_(.*?).png"')
+    console.error('[ replace ]            "replace_to_\\$1.png"')
+    console.error('[ flag (Optional) ]    "ig" (Default is g)\r\n')
+    console.error('Example: srpl my_db.sql "2017/12/(.*?).png" "2017/12/png/\\$1.png" ig \r\n')
     return
 }
 
